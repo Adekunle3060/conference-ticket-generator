@@ -108,7 +108,7 @@
               <div class="logo">
                 <img src="./assets/images/logo-full.svg" alt="logo" />
               </div>
-                <p class="time"><span class="dot">Jan 31, 2025</span> / Austin, TX</p>
+                <p class="time"><span class="dot">Jan 31, 2025</span> / Ilorin, KW</p>
 
                 <div class="personal">
                   <img class="avatar" src="./assets/images/image-avatar.jpg" alt="avatar">
@@ -128,5 +128,16 @@
       </section>
     </main>
     <script src="script.js"></script>
+
+    <footer>
+      <p> &copy; <span id="current-year"></span> <a style="color: #fff; text-decoration: none;" href="https://github.com/Adekunle3060">Classic.</a> All rights reserved. </p>
+    </footer>
+    <script>
+      const yearSpan = document.getElementById('current-year');
+
+      const currentYear = new Date().getFullYear();
+
+      yearSpan.innerHTML = currentYear;
+    </script>
   </body>
 </html>
